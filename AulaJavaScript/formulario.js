@@ -20,7 +20,7 @@ function telefone(variavel) {
     variavel = variavel.replace(/^(\d{2})(\d)/, "($1)$2");
 
     // ADICIONA HIFEM ENTRE O QUARTO E QUINTO NUMERO
-    variavel = variavel.replace(/(\d{4})(\d)/, "$1-$2");
+    variavel = variavel.replace(/(\d{5})(\d)/, "$1-$2");
 
     return variavel; 
 }
