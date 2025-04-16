@@ -10,7 +10,7 @@
         }
         th,td{
             border-style: solid;
-            width:50px;
+            width: auto;
         }
     </style>
 </head>
