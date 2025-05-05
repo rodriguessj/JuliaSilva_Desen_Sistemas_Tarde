@@ -21,7 +21,7 @@ cpf_input.send_keys("12345678901")
 
 # Preencha o campo Endereço
 endereco_input = driver.find_element(By.ID, "address")
-endereco_input.send_keys("Rua das Flores")
+endereco_input.send_keys("Rua das Flores, 123")
 
 # Preencha o campo Telefone
 telefone_input = driver.find_element(By.ID, "phone")
